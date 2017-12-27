@@ -6,7 +6,7 @@
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "vikash-ag",
+  "author": "Vikash-ag",
   "license": "ISC",
   "description": "ArticleEmailNotification",
   "dependencies": {
@@ -24,7 +24,7 @@
   "keywords": [
     "article",
     "email",
-    "notification"
+    "notifications"
   ],
   "bugs": {
     "url": "https://github.com/prafulgadgetrek/ArticleEmailNotification/issues"

@@ -21,9 +21,9 @@ function init(){
  res2 = '';
 }
 
-console.log('App started running, please wait for scheduler to run.');
+console.log('App started running, please wait for scheduler to run...');
 var ns = schedule.scheduleJob(process.env.SCHEDULE_CORN_EXP , function(){
-	console.log("Last modified on 27th Dec!!!");	
+	console.log("Last modified on 27th Dec 2017!!!");	
 	console.log('Scheduler started running!!!!');
 	conn = new jsforce.Connection({
 		loginUrl : process.env.SF_LOGIN_URL
